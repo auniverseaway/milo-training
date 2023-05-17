@@ -19,6 +19,16 @@
       "include_paths": [ "**.xlsx**" ]
     },
     {
+      "title": "Preflight",
+      "id": "preflight",
+      "environments": [
+        "dev",
+        "preview",
+        "live"
+      ],
+      "event": "preflight"
+    },
+    {
       "title": "Send to CaaS",
       "id": "sendtocaas",
       "environments": ["dev","preview", "live", "prod"],
